@@ -26,7 +26,7 @@ function BasicState() {
             onChange={(e) => setText(e.target.value)}
           />
           <button className="add-btn" type="" onClick={addNewItem}>
-            Add
+            Add task
           </button>
         </div>
         <div className="display-section">
