@@ -1,0 +1,95 @@
+.info {
+  width: 400px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.info-header {
+  font-family: sans-serif;
+  text-align: center;
+  color: blue;
+}
+
+.name,
+.sem,
+.prog,
+.address {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+  font-size: 15px;
+}
+
+.about {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  color: red;
+}
+
+.card {
+  background-color: aquamarine;
+  width: 600px;
+  height: 300px;
+  margin: 10px;
+  display: flex;
+}
+
+.about-text {
+  color: red;
+  text-align: center;
+}
+
+.app-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.wrap-btn-text {
+  height: 700px;
+  width: 1000px;
+  margin: 10px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section {
+  display: flex;
+  width: 50%;
+  padding: 10px;
+  justify-content: center;
+}
+
+.display-section {
+  height: 50%;
+  width: 50%;
+  margin: 5px;
+  box-shadow: 4px 8px 12px 0px red;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.add-btn {
+  margin-left: 4px;
+  color: blue;
+  background-color: yellowgreen;
+}
+
+.remove-btn {
+  margin-left: 4px;
+  color: blue;
+  background-color: yellowgreen;
+}
+
+.list-item {
+  margin: 5px;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
