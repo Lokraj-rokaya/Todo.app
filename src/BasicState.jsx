@@ -40,7 +40,9 @@ function BasicState() {
                     removeItem(i);
                   }}
                 >
-                  Remove
+                  Remove susant
+                  
+
                 </button>
               </li>
             ))}
